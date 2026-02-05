@@ -1,0 +1,35 @@
+* {
+  background-color: black;
+}
+body {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+}
+button {
+  background-color: rgba(211, 221, 227, 0.871);
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 19px;
+
+}
+h1 {
+  background-color: #c7d6dde8;
+  padding: 123px;
+  font-size: 80px;
+  border-radius: 18px;
+}
+.box {
+  background-color: rgb(0, 0, 0);
+  height: 148px;
+  width: 300px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
